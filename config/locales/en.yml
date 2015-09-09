@@ -1,0 +1,63 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# To learn more, please read the Rails Internationalization guide
+# available at http://guides.rubyonrails.org/i18n.html.
+
+en:
+  welcome_to: "Welcome to "
+  find_tutor_today: "Find your tutor today"
+  find_tutor_message: "Learn whatever you want, there's someone able to teach you."
+  you_set_the_limit: "You set the limit"
+  home: "Home"
+  about_us: "What is?"
+  about_us_description_html: "<h3>Basically is...</h3> The possibilty to find anyone who is able to teach you whatever you want without go anywhere and enroll it. <br><br> This is simple, you would like to learn how make a dessert, play piano, get the programming language for that new job, do yoga, become a great speaker in english, italian, russian or any other language you never imagine before, solve the math homework. Here is the place you are going to find out that person.<br><br>Your own tutor, think on it!"
+  lets_begin: "Let's begin"
+  first_step: "Sign up"
+  first_step_desc: "Create your account"
+  language: "english"
+  second_step: "Search"
+  second_desc: "Find out what you like"
+
+it:
+  welcome_to: "Benvenuti a "
+  find_tutor_today: "Trova il tuo insegnante oggi"
+  find_tutor_message: "Impara chello che vuoi, c'e qualcuno in grado di insegnare"
+  you_set_the_limit: "Tu imposti il limite"
+  home: "Home"
+  about_us: "Cosa è?"
+  first_step: "Iscrizione"
+  first_step_desc: "Crea il suo profilo"
+  language: "english"
+  second_step: "Cerca"
+  second_desc: "Trova che ti piacerebbe"
+
+es:
+  welcome_to: "Bienvenidos a "
+  find_tutor_today: "Encuentra tu tutor hoy"
+  find_tutor_message: "Aprende lo que quieras, hay alguien capaz de enseñarte"
+  you_set_the_limit: "Tu pones el límite"
+  home: "Inicio"
+  about_us: "Qué es?"
+  about_us_description_html: "<h3>Basicamente es...</h3> La posibilidad de encontrar alguien capaz de enseñarte cualquier cosa sin necesidad de una matrícula en una academia. <br><br> Esto es simple, quieres aprender como se hace un postre, tocar piano, aprender un nuevo lenguaje de programación para ese trabajo, hacer una postura de yoga, volverte un experto hablando inglés, italiano, ruso o sea cualquier idioma que te guste como jamás lo pensaste, resolver esa tarea de matemática. Este es el lugar donde encontrarás esa persona. <br><br> Un tutor personalizado, piénsalo!"
+  lets_begin: "Empecemos"
+  first_step: "Registrate"
+  first_step_desc: "Crea una cuenta"
+  language: "espanol"
+  second_step: "Busca"
+  second_desc: "Encuentra que te gustaría"

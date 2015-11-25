@@ -7,12 +7,15 @@
   <link rel="stylesheet" href="assets/font-awesome.min.css">
   <link rel="stylesheet" href="assets/templatemo_misc.css">
   <link rel="stylesheet" href="assets/templatemo_style.css">
+  <link rel="icon" href="assets/1442803282_graduation_cap.ico">
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
 
 <%= yield %>
+<p class="notice"><%= notice %></p>
+<p class="alert"><%= alert %></p>
 
 </body>
 </html>
